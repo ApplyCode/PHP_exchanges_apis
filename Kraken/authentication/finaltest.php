@@ -131,8 +131,8 @@ class MEXCAPI
     }
 }
 
-$key = 'mx0vgldC9tjd5OPtva';
-$secret = 'db6bb3eb01d74add8fdc6498fba733b8';
+$key = 'xxx';
+$secret = 'xxx';
 
 $mexc = new MEXCAPI($key, $secret);
 
