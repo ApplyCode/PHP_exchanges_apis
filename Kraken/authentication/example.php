@@ -107,8 +107,8 @@ class KrakenAPI
 }
 
 // Usage example
-$key = 'SI78jHB6nSk48J9GxJ2LIynqFA4gVQO76R2Or5X3tnqlV3kD69kgcx8l';
-$secret = 'A2aESpGT3Fn51XtDhrnsP01QNVOQane4H5ZoBp6uQzAaQT2Aq6echDZSLzd/XtXyfIQenk6Pi1wYgmgtjVtO6A==';
+$key = 'xxx';
+$secret = 'xxx/xxx';
 $kraken = new KrakenAPI($key, $secret);
 
 try {
