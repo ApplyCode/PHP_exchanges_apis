@@ -6,8 +6,8 @@ function krakenApiCall($method, array $req = array()) {
     $url = "https://api.kraken.com/0/private/" . $method;
 
     // Set API key and secret
-    $apiKey = '1o1SXYgOsYVynHPcAe6lc+vcu2cGvGeS3uUjfxwCkyUS48c08esSioSL'; // Replace with your API key
-    $apiSecret = 'V+p2e+eP+zuvit93gfDtvoyanytFZ0QVZc3ZPdNuPDUJCOJqW74yZtSwpzkM7nCHVaLgNwlZ4acHh6cPUizlAg=='; // Replace with your API secret
+    $apiKey = 'xxx'; // Replace with your API key
+    $apiSecret = 'xxx'; // Replace with your API secret
 
     // Generate a nonce (a unique long number)
     $req['nonce'] = time()*1000;
